@@ -11,7 +11,7 @@ git config --global alias.change-commits '!'"f() { VAR=\$1; OLD=\$2; NEW=\$3; sh
 git change-commits GIT_AUTHOR_NAME "old name" "new name"
 ```
 
--- Change the author email: 
+- Change the author email: 
 
 ```
 git change-commits GIT_AUTHOR_EMAIL "old@email.com" "new@email.com"
